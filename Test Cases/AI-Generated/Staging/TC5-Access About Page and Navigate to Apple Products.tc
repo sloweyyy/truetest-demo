@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>9231a4d4-34d1-4c1e-beec-ee9aff9cefd9</id>
@@ -19,6 +18,6 @@
     </integratedEntity>
     <name>TC5-Access About Page and Navigate to Apple Products</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>product</tag>
     <testCaseGuid>93a20511-2252-48e7-befa-c8e9b075e2f9</testCaseGuid>
 </TestCaseEntity>

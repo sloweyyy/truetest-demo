@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>f73a8fde-beb4-4f5f-9506-63c23fae4786</id>
@@ -19,6 +18,6 @@
     </integratedEntity>
     <name>TC6-Verify Product Details for Apple Accessories</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>product</tag>
     <testCaseGuid>90564036-2c9c-48d0-8835-8d9c52830530</testCaseGuid>
 </TestCaseEntity>
