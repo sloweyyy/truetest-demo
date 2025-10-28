@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>9483df3f-b2c6-40ab-be91-e6459f3deab8</id>
@@ -19,6 +18,6 @@
     </integratedEntity>
     <name>TC15-Select Product and Verify Homepage in Cellphone Shop</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>product</tag>
     <testCaseGuid>fccaa34a-ad58-4067-9972-fb6f16a6df37</testCaseGuid>
 </TestCaseEntity>

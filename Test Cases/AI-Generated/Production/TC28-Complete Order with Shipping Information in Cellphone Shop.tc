@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>dff5914a-72e3-4b58-b760-afcb3e424398</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC28-Complete Order with Shipping Information in Cellphone Shop</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>product</tag>
     <testCaseGuid>1d627087-6772-4b64-8cc9-541ec52d3e67</testCaseGuid>
     <variable>
         <defaultValue>'city'</defaultValue>
