@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>dff5914a-72e3-4b58-b760-afcb3e424398</id>
+        </flow>
+    </customField>
+    <description>Navigate to the homepage, select a product, fill in shipping details, and proceed to payment. Complete the order and verify the thank you page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC28-Complete Order with Shipping Information in Cellphone Shop</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>1d627087-6772-4b64-8cc9-541ec52d3e67</testCaseGuid>
+    <variable>
+        <defaultValue>'city'</defaultValue>
+        <description>Input data variable</description>
+        <id>e4c1543a-7ede-4627-8b95-91b39e969e89</id>
+        <masked>false</masked>
+        <name>input_city</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>fdfc9fb9-637a-418c-98c2-f639d1986a2d</id>
+        <masked>false</masked>
+        <name>input_email</name>
+    </variable>
+    <variable>
+        <defaultValue>'first'</defaultValue>
+        <description>Input data variable</description>
+        <id>b890f1fa-4538-4fd9-8ab5-8ded4f61050f</id>
+        <masked>false</masked>
+        <name>input_firstName</name>
+    </variable>
+    <variable>
+        <defaultValue>'lass'</defaultValue>
+        <description>Input data variable</description>
+        <id>09c24522-7222-476e-a6db-b218fc7aa7f6</id>
+        <masked>false</masked>
+        <name>input_lastName</name>
+    </variable>
+    <variable>
+        <defaultValue>'129312312'</defaultValue>
+        <description>Input data variable</description>
+        <id>84f864ff-5b8b-470b-8a25-f8d07742dc66</id>
+        <masked>false</masked>
+        <name>input_phone</name>
+    </variable>
+    <variable>
+        <defaultValue>'add'</defaultValue>
+        <description>Input data variable</description>
+        <id>8c09645b-5a38-4a60-bef1-fcfde218daf5</id>
+        <masked>false</masked>
+        <name>input_shippingAddress</name>
+    </variable>
+    <variable>
+        <defaultValue>'123'</defaultValue>
+        <description>Input data variable</description>
+        <id>36f4aef4-7575-4370-bdba-4bebcd198f33</id>
+        <masked>false</masked>
+        <name>input_state</name>
+    </variable>
+    <variable>
+        <defaultValue>'234'</defaultValue>
+        <description>Input data variable</description>
+        <id>9ab52705-4f1b-44d4-bc83-28043c75c8f9</id>
+        <masked>false</masked>
+        <name>input_zipCode</name>
+    </variable>
+</TestCaseEntity>

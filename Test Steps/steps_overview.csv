@@ -1,0 +1,1222 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+23,Place Order for Best Choice Product in Cellphone Shop,"Navigate to the homepage, select a product, place an order, and proceed to checkout. Enter email and verify successful navigation back to the homepage.","Step 1: Navigate to /
+Step 2: Click on button object
+Step 3: Hover over link bestChoice
+Step 4: Click on link placeOrder -> Navigate to page '/cart'
+Step 5: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 6: Click on input email
+Step 7: Enter input value in input email
+Step 8: Click on button continueToShipping -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",High,NEW
+13,Add Multiple Items to Cart and Verify Homepage,"Navigate to the homepage, add multiple items to the cart, and verify the homepage after placing the order.","Step 1: Navigate to /
+Step 2: Click on button addToCartMultiple (object3)
+Step 3: Click on label storageColorOptions ( 128Gb)
+Step 4: Click on label storageColorOptions (yellow)
+Step 5: Click on button buy
+Step 6: Click on link placeOrder2 -> Navigate to page '/cart'
+Step 7: Click on link kCellphoneShop -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+44,Add Accessories to Cart from Cellphone Shop,"Navigate to the homepage, hover over accessories, add an item to the cart, and verify the homepage after returning.","Step 1: Navigate to /
+Step 2: Hover over link accessories2
+Step 3: Click on link apple2 -> Navigate to page '/category/*'
+Step 4: Click on button addToCart3
+Step 5: Click on link productDetail (productDetail) -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+12,Test About Page Navigation,"Navigate to the homepage, access the About page, and verify the return to the homepage.","Step 1: Navigate to /
+Step 2: Click on link about2 -> Navigate to page '/about'
+Step 3: Hover over span object
+Step 4: Click on link apple -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+47,Quick Add to Cart and Verify Homepage,"Navigate to the homepage, add a phone to the cart, close the cart, and verify that the homepage is displayed.","Step 1: Navigate to /
+Step 2: Click on div welcomeMessage
+Step 3: Click on html homePageContent
+Step 4: Click on button addToCart5
+Step 5: Click on button close
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+28,Complete Order with Shipping Information in Cellphone Shop,"Navigate to the homepage, select a product, fill in shipping details, and proceed to payment. Complete the order and verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on button object
+Step 3: Hover over link bestChoice
+Step 4: Navigate to cart and continue to shipping information.
+	- Step 1: Click on link placeOrder2 -> Navigate to page '/cart'
+	- Step 2: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping
+Step 5: Fill in shipping details and proceed to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Press key Tab on input firstName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Press key Tab on input lastName
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Press key Tab on input shippingAddress
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Press key Tab on input zipCode
+	- Step 10: Enter input value in input city
+	- Step 11: Press key Tab on input city
+	- Step 12: Enter input value in input state
+	- Step 13: Press key Tab on input state
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 6: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
+17,Access Accessories Section from Homepage,Navigate to the homepage and click on the accessories link. Verify that the homepage is displayed correctly.,"Step 1: Navigate to /
+Step 2: Click on link accessory (iphone15SiliconeCase) -> Navigate to page ''
+Step 3: Take full page screenshot as checkpoint
+",High,NEW
+52,Add Multiple Items to Cart and Verify Home Page,"Navigate to the home page, add multiple items to the cart, hover over the best choice link, place an order, and verify the home page.","Step 1: Navigate to /
+Step 2: Click on button addToCartMultiple (addToCart6)
+Step 3: Hover over link bestChoice
+Step 4: Click on link placeOrder2 -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+60,Explore About Page and Verify Stock Availability,"Navigate to the homepage, access the About page, check Samsung stock availability, and verify the homepage after returning.","Step 1: Navigate to /
+Step 2: Click on link about2 -> Navigate to page '/about'
+Step 3: Hover over span object
+Step 4: Click on link samsung -> Navigate to page '/category/*'
+Step 5: Click on input inStock
+Step 6: Click on button show2 -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
+36,Verify Navigation to Cart from Home Page,Navigate to the homepage and click the link to go to the cart. Verify that the homepage is displayed correctly.,"Step 1: Navigate to /
+Step 2: Click on link goToCart2 -> Navigate to page ''
+Step 3: Take full page screenshot as checkpoint
+",High,NEW
+55,Verify About Page Accessibility,Navigate to the homepage and access the About page to verify its availability.,"Step 1: Navigate to /
+Step 2: Click on link about -> Navigate to page ''
+Step 3: Take full page screenshot as checkpoint
+",High,NEW
+33,Verify Navigation to Home Page from Cart,"Navigate to the homepage, access the cart, and then return to the homepage. Verify that the homepage is displayed correctly.","Step 1: Navigate to /
+Step 2: Click on link goToCart2 -> Navigate to page '/cart'
+Step 3: Click on span goToCart -> Navigate to page ''
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+20,Navigate Phone Category and Verify Home Page,"Navigate to the home page, explore phone categories, and verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Click on link phone2 -> Navigate to page '/category/*'
+Step 3: Click on link kCellphoneShop -> Navigate to page '/'
+Step 4: Click on div welcomeMessage
+Step 5: Click on list phoneAccessories
+Step 6: Click on div welcomeMessage -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High,NEW
+49,Navigate to Apple Category and Verify Home Page,"Navigate to the home page, hover over the Apple category, and verify the home page after interacting with various elements.","Step 1: Navigate to /
+Step 2: Hover over span object
+Step 3: Click on link apple -> Navigate to page '/category/*'
+Step 4: Click on label inStock
+Step 5: Click on div clearCalculating
+Step 6: Click on item about
+Step 7: Click on link about2 -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+15,Select Product and Verify Homepage in Cellphone Shop,"Navigate to the homepage, select a product, and verify that the homepage is displayed correctly after selection.","Step 1: Navigate to /
+Step 2: Hover over span object
+Step 3: Select a product and proceed to purchase.
+	- Step 1: Click on link apple -> Navigate to page '/category/*'
+	- Step 2: Click on link iPhone16e -> Navigate to page '/product/*'
+	- Step 3: Click on label colorBlack2
+	- Step 4: Click on label storage256Gb2
+	- Step 5: Click on button buy2
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+39,Purchase iPhone 15 Clear Case and Complete Order in Cellphone Shop,"Navigate to the homepage, select the iPhone 15 Clear Case, place an order, and complete the checkout process. Verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on link iPhone15ClearCase -> Navigate to page '/product/*'
+Step 3: Click on button buy
+Step 4: Hover over button increase
+Step 5: Click on link placeOrder -> Navigate to page '/cart'
+Step 6: Click on button proceedToCheckout -> Navigate to page '/checkout/payment'
+Step 7: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 8: Take full page screenshot as checkpoint
+",High,NEW
+29,Filter Apple Phones by Price Range,"Navigate to the homepage, hover over the phone category, select Apple, set minimum and maximum price filters, and verify the updated homepage.","Step 1: Navigate to /
+Step 2: Hover over link phone
+Step 3: Click on link apple -> Navigate to page '/category/*'
+Step 4: Click on input priceMin
+Step 5: Enter input value in input priceMin
+Step 6: Click on input priceMax
+Step 7: Enter input value in input priceMax
+Step 8: Click on button show -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",High,NEW
+24,Order iPhone 16 with Increased Quantity,"Navigate to the homepage, select an iPhone 16, adjust quantity in the cart, and proceed to checkout with shipping information.","Step 1: Navigate to /
+Step 2: Click on link iphone16 -> Navigate to page '/product/*'
+Step 3: Click on label white
+Step 4: Click on label storage256Gb
+Step 5: Click on button buy2
+Step 6: Click on link placeOrder -> Navigate to page '/cart'
+Step 7: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 8: Click on link backToCart -> Navigate to page '/cart'
+Step 9: Click on button increaseQuantity
+Step 10: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 11: Click on input email2
+Step 12: Enter input value in input email2
+Step 13: Click on button continueToShipping -> Navigate to page ''
+Step 14: Take full page screenshot as checkpoint
+",Medium,NEW
+57,Purchase iPhone 15 Clear Case and Proceed to Checkout,"Navigate to the homepage, select Apple phones, choose the iPhone 15 Clear Case, buy it, and proceed to checkout, verifying the homepage afterward.","Step 1: Navigate to /
+Step 2: Hover over link phone
+Step 3: Click on link apple -> Navigate to page '/category/*'
+Step 4: Click on link iPhone15ClearCase -> Navigate to page '/product/*'
+Step 5: Click on button buy
+Step 6: Hover over button buy3
+Step 7: Click on link placeOrder2 -> Navigate to page '/cart'
+Step 8: Click on button proceedToCheckout -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",Medium,NEW
+64,Complete Checkout for Google Pixel Phone in Cellphone Shop,"Navigate to the homepage, select Google Pixel, add to cart, proceed to checkout, enter email and shipping details, complete the order, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Hover over link phone
+Step 3: Click on link googlePixel -> Navigate to page '/category/*'
+Step 4: Click on button addToCart (addToCart)
+Step 5: Click on link goToCart -> Navigate to page '/cart'
+Step 6: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 7: Click on input email
+Step 8: Enter input value in input email
+Step 9: Click on button continueToShipping
+Step 10: Re-enter shipping details and continue to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Click on input lastName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Click on input shippingAddress
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Click on input zipCode
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Click on input city
+	- Step 10: Enter input value in input city
+	- Step 11: Click on input state
+	- Step 12: Enter input value in input state
+	- Step 13: Click on input phone
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 11: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 12: Take full page screenshot as checkpoint
+",Medium,NEW
+37,Complete Checkout for iPhone 15 Plus in Cellphone Shop,"Navigate to the homepage, select iPhone 15 Plus, choose options, add to cart, enter email and shipping details, complete the order, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on link iphone15Plus
+Step 3: Select storage and color options then proceed to cart.
+	- Step 1: Click on label storage1Tb2
+	- Step 2: Click on label colorBlack3
+	- Step 3: Click on button buy2
+	- Step 4: Click on link goToCart7 -> Navigate to page '/cart'
+	- Step 5: Click on button proceedToCheckout
+Step 4: Click on input email
+Step 5: Enter input value in input email
+Step 6: Click on button continueToShipping
+Step 7: Fill in shipping details and proceed to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Press key Tab on input firstName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Press key Tab on input lastName
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Press key Tab on input shippingAddress
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Press key Tab on input zipCode
+	- Step 10: Enter input value in input city
+	- Step 11: Press key Tab on input city
+	- Step 12: Enter input value in input state
+	- Step 13: Press key Tab on input state
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 8: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 9: Take full page screenshot as checkpoint
+",Medium,NEW
+8,Complete Checkout Process with Marketing Preferences in Cellphone Shop,"Navigate to the homepage, access the about page, go to cart, input email and marketing preferences, fill shipping details, complete the order, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on link about -> Navigate to page '/about'
+Step 3: Click on span goToCart
+Step 4: Input email and choose marketing preferences before shipping.
+	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on input receiveMarketingInfo
+	- Step 5: Click on button continueToShipping
+Step 5: Complete shipping information and proceed to payment.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Press key Tab on input firstName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Click on input shippingAddress
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Click on input zipCode
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Click on input city
+	- Step 10: Enter input value in input city
+	- Step 11: Click on input state
+	- Step 12: Enter input value in input state
+	- Step 13: Click on input phone
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 6: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 7: Take full page screenshot as checkpoint
+",Medium,NEW
+58,Add Apple Phones to Cart and Return to Home Page,"Navigate to the home page, hover over the phone link, select Apple category, add multiple items to the cart, and return to the home page.","Step 1: Navigate to /
+Step 2: Hover over link phone
+Step 3: Click on link apple -> Navigate to page '/category/*'
+Step 4: Click on button addToCartMultiple (addToCart5)
+Step 5: Click on button buy
+Step 6: Click on button close -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",Medium,NEW
+30,Complete Order with Best Choice Option,"Navigate to the homepage, select a product, fill in shipping details, and complete the order while verifying the homepage.","Step 1: Navigate to /
+Step 2: Click on button object2
+Step 3: Hover over link bestChoice
+Step 4: Navigate to cart and continue to shipping information.
+	- Step 1: Click on link placeOrder2 -> Navigate to page '/cart'
+	- Step 2: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping
+Step 5: Fill in shipping details and proceed to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Press key Tab on input firstName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Press key Tab on input lastName
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Press key Tab on input shippingAddress
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Press key Tab on input zipCode
+	- Step 10: Enter input value in input city
+	- Step 11: Press key Tab on input city
+	- Step 12: Enter input value in input state
+	- Step 13: Press key Tab on input state
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 6: Click on button completeOrder2 -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",Medium,NEW
+43,Browse and Verify Phone Categories in Cellphone Shop,"Navigate to the homepage, explore different phone categories including Apple and Samsung, and verify the homepage after browsing.","Step 1: Navigate to /
+Step 2: Click on link phone4 -> Navigate to page '/category/*'
+Step 3: Click on div categoryApple
+Step 4: Click on link apple2
+Step 5: Click on link samsung
+Step 6: Click on div bestChoice
+Step 7: Click on link accessories2 -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",Medium,NEW
+53,Add iPhone 16 Sale to Cart and Complete Purchase,"Navigate to the homepage, select a phone category, add an item to the cart, choose storage and color options, and complete the purchase, verifying the homepage.","Step 1: Navigate to /
+Step 2: Click on div welcomeMessage
+Step 3: Click on link phone2 -> Navigate to page '/category/*'
+Step 4: Click on button addToCart2
+Step 5: Click on label storageCapacity
+Step 6: Click on label cream
+Step 7: Click on button buy
+Step 8: Hover over link iphone16Sale
+Step 9: Click on link placeOrder -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",Medium,NEW
+56,Purchase Apple iPhone 15 Pro Silicone Case,"Navigate to the homepage, select the Apple iPhone 15 Pro case, add to cart, proceed to checkout, and complete the order.","Step 1: Navigate to /
+Step 2: Click on div object
+Step 3: Click on link appleIphone15ProSiliconeCaseWithMagSafe -> Navigate to page '/product/*'
+Step 4: Click on button increased2
+Step 5: Click on button buy
+Step 6: Click on link placeOrder -> Navigate to page '/cart'
+Step 7: Click on button proceedToCheckout -> Navigate to page '/checkout/payment'
+Step 8: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 9: Take full page screenshot as checkpoint
+",Medium,NEW
+31,Remove Item from Cart and Navigate Back to Home,"Go to the cart, remove an item, and navigate back to the homepage, verifying the homepage after the action.","Step 1: Navigate to /cart
+Step 2: Click on link kCellphoneShop
+Step 3: Click on button removeItem -> Navigate to page '/'
+Step 4: Click on link kCellphoneShop
+Step 5: Hover over link phone
+Step 6: Click on link apple -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",Medium,NEW
+27,Complete Purchase Process for a Selected Phone,"Navigate to the homepage, select a phone product, and proceed to checkout. Fill in shipping details and continue to payment.","Step 1: Navigate to /
+Step 2: Hover over link phone
+Step 3: Select a product and proceed to purchase.
+	- Step 1: Click on link apple -> Navigate to page '/category/*'
+	- Step 2: Click on link iPhone16e -> Navigate to page '/product/*'
+	- Step 3: Click on label colorBlack2
+	- Step 4: Click on label storage256Gb2
+	- Step 5: Click on button buy2
+Step 4: Hover over link goToCart3
+Step 5: Access cart and enter email to continue to shipping.
+	- Step 1: Click on link placeOrder2 -> Navigate to page '/cart'
+	- Step 2: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping
+Step 6: Click on input firstName
+Step 7: Enter input value in input firstName
+Step 8: Press key Tab on input firstName
+Step 9: Enter input value in input lastName
+Step 10: Press key Tab on input lastName
+Step 11: Enter input value in input shippingAddress
+Step 12: Press key Tab on input shippingAddress
+Step 13: Enter input value in input zipCode
+Step 14: Press key Tab on input zipCode
+Step 15: Enter input value in input city
+Step 16: Press key Tab on input city
+Step 17: Enter input value in input state
+Step 18: Press key Tab on input state
+Step 19: Enter input value in input phone
+Step 20: Click on button continueToPayment -> Navigate to page ''
+Step 21: Take full page screenshot as checkpoint
+",Medium,NEW
+46,Purchase Apple iPhone 15 Pro Case and Verify Homepage,"Navigate to the accessories section, select an iPhone case, and complete the purchase. Verify that the homepage is displayed correctly after the action.","Step 1: Navigate to /
+Step 2: Hover over link accessories2
+Step 3: Hover over link accessories2
+Step 4: Click on link apple2 -> Navigate to page '/category/*'
+Step 5: Click on link appleIphone15ProCase -> Navigate to page '/product/*'
+Step 6: Click on button increased2
+Step 7: Click on button buy
+Step 8: Hover over link goToCart4
+Step 9: Click on button action -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",Medium,NEW
+26,Buy Apple iPhone 15 Pro Case and Verify Home Page,"Navigate to the home page, explore accessories, select a phone case, and complete the purchase. Verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Click on link about -> Navigate to page '/about'
+Step 3: Click on link accessories -> Navigate to page '/category/*'
+Step 4: Click on link byTitle
+Step 5: Click on link byPrice
+Step 6: Click on link appleIphone15ProCase -> Navigate to page '/product/*'
+Step 7: Click on button buy -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",Medium,NEW
+54,Purchase iPhone 15 Clear Case and Verify Checkout,"Navigate to the home page, select a phone case, add it to the cart, and proceed to checkout. Verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Click on link phone3 -> Navigate to page '/category/*'
+Step 3: Hover over link phone
+Step 4: Click on link brandOptions (apple)
+Step 5: Click on link iPhone15ClearCase -> Navigate to page '/product/*'
+Step 6: Click on button buy
+Step 7: Click on span goToCart -> Navigate to page '/cart'
+Step 8: Click on button proceedToCheckout -> Navigate to page '/'
+Step 9: Click on link phone3 -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",Medium,NEW
+22,Explore Accessories and Verify Home Page Navigation,"Navigate to the home page, explore accessories, check prices, and verify navigation back to the home page.","Step 1: Navigate to /
+Step 2: Click on link accessories -> Navigate to page '/category/*'
+Step 3: Click on div welcomeMessage
+Step 4: Click on div welcomeMessage
+Step 5: Click on main category
+Step 6: Click on div categorySidebar
+Step 7: Click on input priceMin
+Step 8: Enter input value in input priceMin
+Step 9: Click on main category
+Step 10: Click on link usbChargeCable -> Navigate to page '/product/*'
+Step 11: Click on p priceInfo
+Step 12: Click on span priceCurrent
+Step 13: Click on span priceCurrent
+Step 14: Click on link productCategories (phone) -> Navigate to page '/category/*'
+Step 15: Click on link accessories
+Step 16: Click on header accessories
+Step 17: Click on span goToCart -> Navigate to page '/cart'
+Step 18: Click on div cartSummary
+Step 19: Click on div cartPage
+Step 20: Click on div welcomeMessage -> Navigate to page ''
+Step 21: Take full page screenshot as checkpoint
+",Medium,NEW
+18,Browse and Verify Product Categories in Cellphone Shop,"Navigate to the homepage, explore product categories, and verify the presence of products and pricing information.","Step 1: Navigate to /
+Step 2: Click on link accessories3 -> Navigate to page '/category/*'
+Step 3: Click on input priceMin
+Step 4: Click on input priceMin
+Step 5: Click on input priceMin
+Step 6: Click on input priceMin
+Step 7: Click on input priceMin
+Step 8: Click on input priceMin
+Step 9: Click on input priceMin
+Step 10: Click on input priceMin
+Step 11: Click on input priceMin
+Step 12: Click on main category
+Step 13: Click on input priceMin
+Step 14: Click on div categorySidebar
+Step 15: Click on link usbCadapterPrice -> Navigate to page '/product/*'
+Step 16: Click on link productImage
+Step 17: Click on link usbCadapter
+Step 18: Click on link productImage
+Step 19: Click on main productDetails -> Navigate to page ''
+Step 20: Take full page screenshot as checkpoint
+",Low,NEW
+4,Browse and Select Apple Sale Items with Cart Verification,"Navigate to the home page, browse Apple sale items, select options, add to cart, return to home page, and verify the home page.","Step 1: Navigate to /
+Step 2: Browse Apple sale items and select color and storage options.
+	- Step 1: Hover over span object
+	- Step 2: Click on link apple -> Navigate to page '/category/*'
+	- Step 3: Click on link saleItems -> Navigate to page '/product/*'
+	- Step 4: Click on label white2
+	- Step 5: Click on label storage128Gb4
+Step 3: Click on button increased3
+Step 4: Click on link kCellphoneShop2 -> Navigate to page '/'
+Step 5: Click on span goToCart -> Navigate to page '/cart'
+Step 6: Click on link goShopping -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",Low,NEW
+25,Complete Checkout Process for Cart Items,"Navigate to the cart, proceed to checkout, fill in shipping and payment details, and verify the thank you page after completing the order.","Step 1: Navigate to /
+Step 2: Click on link goToCart -> Navigate to page '/cart'
+Step 3: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 4: Click on input email
+Step 5: Enter input value in input email
+Step 6: Press key Enter on input email3 -> Navigate to page '/checkout/shipping-address'
+Step 7: Click on input firstName
+Step 8: Enter input value in input firstName
+Step 9: Click on input lastName
+Step 10: Enter input value in input lastName
+Step 11: Click on input shippingAddress
+Step 12: Enter input value in input shippingAddress
+Step 13: Click on input zipCode
+Step 14: Enter input value in input zipCode
+Step 15: Click on input city
+Step 16: Enter input value in input city
+Step 17: Click on button continueToPayment2 -> Navigate to page '/checkout/payment'
+Step 18: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 19: Take full page screenshot as checkpoint
+",Low,NEW
+48,Explore Best Choices and Purchase Options in Cellphone Shop,"Navigate to the homepage, explore new sales, select a product, and verify the homepage after purchasing.","Step 1: Navigate to /
+Step 2: Click on link bestChoiceHotNewSale -> Navigate to page '/product/*'
+Step 3: Click on label ultramarine
+Step 4: Click on label storage256Gb
+Step 5: Click on button buy2
+Step 6: Click on link productCategories (phone4)
+Step 7: Click on link apple2 -> Navigate to page '/category/*'
+Step 8: Click on link googlePixel2
+Step 9: Click on span googlePixel
+Step 10: Click on input priceMin
+Step 11: Enter input value in input priceMin
+Step 12: Click on button show4 -> Navigate to page ''
+Step 13: Take full page screenshot as checkpoint
+",Low,NEW
+5,Complete Order for Samsung Earphones and Verify Thank You Page,"Select Samsung earphones, fill in shipping and payment details, complete the order, and verify the thank you page for successful order confirmation.","Step 1: Navigate to /
+Step 2: Click on link samsungEarphones -> Navigate to page '/product/*'
+Step 3: Click on label colorBlack
+Step 4: Click on button buy2
+Step 5: Click on span goToCart -> Navigate to page '/cart'
+Step 6: Click on link about -> Navigate to page '/about'
+Step 7: Click on span goToCart
+Step 8: Input email and choose marketing preferences before shipping.
+	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on input receiveMarketingInfo
+	- Step 5: Click on button continueToShipping
+Step 9: Fill in shipping details and proceed to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Press key Tab on input firstName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Press key Tab on input lastName
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Press key Tab on input shippingAddress
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Press key Tab on input zipCode
+	- Step 10: Enter input value in input city
+	- Step 11: Press key Tab on input city
+	- Step 12: Enter input value in input state
+	- Step 13: Press key Tab on input state
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 10: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 11: Take full page screenshot as checkpoint
+",Low,NEW
+61,Browse Accessories and Verify Category Page,"Navigate to the home page, explore various phone accessories, and verify the category page after multiple interactions with product links.","Step 1: Navigate to /
+Step 2: Hover over link accessories2
+Step 3: Click on link apple2 -> Navigate to page '/category/*'
+Step 4: Hover over link phone
+Step 5: Click on link brandOptions (samsung3)
+Step 6: Click on link saleItems (samsungGalaxyZfold5HotSale) -> Navigate to page '/product/*'
+Step 7: Click on link phone2
+Step 8: Click on link productCategories (accessories3)
+Step 9: Click on link samsung
+Step 10: Click on link productCategories (phone4) -> Navigate to page '/category/*'
+Step 11: Hover over link phone
+Step 12: Click on link brandOptions (apple4)
+Step 13: Click on link brandOptions (googlePixel3)
+Step 14: Click on link brandOptions (samsung3)
+Step 15: Click on main categoryOverview
+Step 16: Hover over link samsung4
+Step 17: Click on div samsung
+Step 18: Click on span samsung
+Step 19: Click on link googlePixel4
+Step 20: Click on link accessories2
+Step 21: Take full page screenshot as checkpoint
+",Low,NEW
+40,Add Samsung Earphones to Cart and Verify Cart Page,"Navigate to the product page, add Samsung earphones to the cart, and verify the cart page for accuracy after multiple interactions.","Step 1: Navigate to /product/*
+Step 2: Click on button buy2
+Step 3: Click on span goToCart -> Navigate to page '/cart'
+Step 4: Click on html cartPage
+Step 5: Click on html cartPage
+Step 6: Click on html cartPage
+Step 7: Click on html cartPage -> Navigate to page '/product/*'
+Step 8: Click on link samsungEarphones
+Step 9: Click on span currentPrice
+Step 10: Click on button object2
+Step 11: Click on span goToCart -> Navigate to page '/cart'
+Step 12: Click on html cart
+Step 13: Click on html cart
+Step 14: Click on html cart
+Step 15: Click on html cart
+Step 16: Take full page screenshot as checkpoint
+",Low,NEW
+11,Test Navigation and Product Selection for Samsung and Google Phones,"Navigate to the homepage, explore Samsung and Google phones, and verify product selections. Return to the homepage after browsing.","Step 1: Navigate to /
+Step 2: Hover over link phone
+Step 3: Click on link samsung -> Navigate to page '/category/*'
+Step 4: Click on link googlePixel
+Step 5: Click on link googlePhone -> Navigate to page '/product/*'
+Step 6: Hover over link phone3
+Step 7: Click on link apple2 -> Navigate to page '/category/*'
+Step 8: Click on link productCategories (phone2)
+Step 9: Click on link object
+Step 10: Click on link kCellphoneShop -> Navigate to page '/'
+Step 11: Click on link bestChoice2 -> Navigate to page '/product/*'
+Step 12: Hover over link samsungGalaxyZfold5Sale
+Step 13: Click on link nextProduct
+Step 14: Click on link nextProduct -> Navigate to page ''
+Step 15: Take full page screenshot as checkpoint
+",Low,NEW
+45,Complete Checkout for Multiple Products in Cellphone Shop,"Navigate to the homepage, select Phone Max and iPhone 15 Clear Case, add to cart, input email and marketing preferences, fill shipping details, complete the order, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on link phoneMax -> Navigate to page '/product/*'
+Step 3: Click on label desertTitanium
+Step 4: Click on label colorBlackTitanium
+Step 5: Click on label storage512Gb
+Step 6: Click on button buy2
+Step 7: Click on link kCellphoneShop -> Navigate to page '/'
+Step 8: Click on link iPhone15ClearCase -> Navigate to page '/product/*'
+Step 9: Click on button buy
+Step 10: Click on link goToCart
+Step 11: Input email and choose marketing preferences before shipping.
+	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on input receiveMarketingInfo
+	- Step 5: Click on button continueToShipping
+Step 12: Fill in shipping details and proceed to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Press key Tab on input firstName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Press key Tab on input lastName
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Press key Tab on input shippingAddress
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Press key Tab on input zipCode
+	- Step 10: Enter input value in input city
+	- Step 11: Press key Tab on input city
+	- Step 12: Enter input value in input state
+	- Step 13: Press key Tab on input state
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 13: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 14: Take full page screenshot as checkpoint
+",Low,NEW
+32,Complete Purchase of iPhone 16 Plus with Accessories,"Navigate to the homepage, select an iPhone 16 Plus, choose options, and complete the purchase with shipping details.","Step 1: Navigate to /
+Step 2: Click on link iPhone16PlusNewSale -> Navigate to page '/product/*'
+Step 3: Click on label pink
+Step 4: Click on label storage128Gb
+Step 5: Click on button buy2
+Step 6: Click on link kCellphoneShop2 -> Navigate to page '/'
+Step 7: Click on link iphoneCase -> Navigate to page '/product/*'
+Step 8: Click on button buy
+Step 9: Click on link goToCart2
+Step 10: Input email and choose marketing preferences before shipping.
+	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on input receiveMarketingInfo
+	- Step 5: Click on button continueToShipping
+Step 11: Fill in shipping details and proceed to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Press key Tab on input firstName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Press key Tab on input lastName
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Press key Tab on input shippingAddress
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Press key Tab on input zipCode
+	- Step 10: Enter input value in input city
+	- Step 11: Press key Tab on input city
+	- Step 12: Enter input value in input state
+	- Step 13: Press key Tab on input state
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 12: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 13: Take full page screenshot as checkpoint
+",Low,NEW
+35,Manage Cart and Purchase Samsung Galaxy Z Fold 5,"Access the cart, navigate to the homepage, select Samsung Galaxy Z Fold 5, adjust storage and color options, and place an order.","Step 1: Navigate to /cart
+Step 2: Click on link kCellphoneShop -> Navigate to page '/'
+Step 3: Click on link samsungGalaxyZfold5HotSale -> Navigate to page '/product/*'
+Step 4: Click on label storage512Gb2
+Step 5: Click on label blue
+Step 6: Click on button increased
+Step 7: Click on button buy2
+Step 8: Click on link placeOrder2 -> Navigate to page '/cart'
+Step 9: Click on button removeItem
+Step 10: Click on link kCellphoneShop -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Low,NEW
+19,Complete Purchase of iPhone with Custom Options,"Navigate to the homepage, select an iPhone with specific storage and color options, proceed to checkout, enter email and shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Click on link iPhonePhone -> Navigate to page '/product/*'
+Step 3: Click on label storage128Gb2
+Step 4: Click on label pink2
+Step 5: Click on button buy2
+Step 6: Hover over link iphone
+Step 7: Click on link placeOrder -> Navigate to page '/cart'
+Step 8: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 9: Click on input email
+Step 10: Enter input value in input email
+Step 11: Click on label emailNewsOffers
+Step 12: Click on input receiveMarketingInfo
+Step 13: Click on button continueToShipping
+Step 14: Re-enter shipping details and continue to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Click on input lastName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Click on input shippingAddress
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Click on input zipCode
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Click on input city
+	- Step 10: Enter input value in input city
+	- Step 11: Click on input state
+	- Step 12: Enter input value in input state
+	- Step 13: Click on input phone
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 15: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 16: Take full page screenshot as checkpoint
+",Low,NEW
+63,Add Multiple Cellphones to Cart and Complete Checkout,"Navigate to the homepage, select multiple cellphones with various options, add them to the cart, and complete the checkout process with shipping details.","Step 1: Navigate to /
+Step 2: Click on button addToCartMultiple (addToCart)
+Step 3: Select multiple storage and color options for a cellphone.
+	- Step 1: Click on button addToCartMultiple
+	- Step 2: Click on label storageColorOptions
+	- Step 3: Click on label storageColorOptions
+	- Step 4: Click on label storageColorOptions
+	- Step 5: Click on label storageColorOptions
+Step 4: Click on label storageColorOptions ( 256Gb)
+Step 5: Click on label storageColorOptions (colorBlack)
+Step 6: Click on button buy
+Step 7: Click on link goToCart -> Navigate to page '/cart'
+Step 8: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 9: Click on input email
+Step 10: Enter input value in input email
+Step 11: Click on button continueToShipping
+Step 12: Re-enter shipping details and continue to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Click on input lastName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Click on input shippingAddress
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Click on input zipCode
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Click on input city
+	- Step 10: Enter input value in input city
+	- Step 11: Click on input state
+	- Step 12: Enter input value in input state
+	- Step 13: Click on input phone
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 13: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 14: Take full page screenshot as checkpoint
+",Low,NEW
+3,Browse and Select Apple Sale Items,"Navigate to the homepage, browse Apple sale items, select color and storage options, and verify the homepage after selection.","Step 1: Navigate to /
+Step 2: Browse Apple sale items and select color and storage options.
+	- Step 1: Hover over span object
+	- Step 2: Click on link apple -> Navigate to page '/category/*'
+	- Step 3: Click on link saleItems -> Navigate to page '/product/*'
+	- Step 4: Click on label white2
+	- Step 5: Click on label storage128Gb4
+Step 3: Click on link phone2 -> Navigate to page '/category/*'
+Step 4: Click on link saleItems (bestChoiceHotNewSale) -> Navigate to page '/product/*'
+Step 5: Hover over link accessories
+Step 6: Click on link apple -> Navigate to page '/category/*'
+Step 7: Click on link saleItems (iPhone16ProMaxClearCaseSale) -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",Low,NEW
+42,Complete Purchase Process for iPhone 15 Clear Case,"Navigate to the homepage, select a product, add it to the cart, enter shipping details, and complete the order. Verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on span goToCart -> Navigate to page '/cart'
+Step 3: Click on link phone -> Navigate to page '/category/*'
+Step 4: Click on link kCellphoneShop2 -> Navigate to page '/'
+Step 5: Click on link iPhone15ClearCase -> Navigate to page '/product/*'
+Step 6: Click on button buy
+Step 7: Hover over button object
+Step 8: Access cart and enter email to continue to shipping.
+	- Step 1: Click on link placeOrder2 -> Navigate to page '/cart'
+	- Step 2: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping
+Step 9: Re-enter shipping details and continue to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Click on input lastName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Click on input shippingAddress
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Click on input zipCode
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Click on input city
+	- Step 10: Enter input value in input city
+	- Step 11: Click on input state
+	- Step 12: Enter input value in input state
+	- Step 13: Click on input phone
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 10: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 11: Take full page screenshot as checkpoint
+",Low,NEW
+16,Add Samsung Galaxy S23 to Cart and Checkout,"Navigate to the cart, select a Samsung phone, add it to the cart, enter email, and proceed to checkout. Verify the homepage after completion.","Step 1: Navigate to /cart
+Step 2: Click on div object
+Step 3: Click on link kCellphoneShop -> Navigate to page '/'
+Step 4: Click on link phone4 -> Navigate to page '/category/*'
+Step 5: Click on link samsung2
+Step 6: Click on button addToCart (addToCart)
+Step 7: Hover over link samsungGalaxyS23Hot
+Step 8: Click on label storage128Gb
+Step 9: Click on button buy
+Step 10: Click on label colorIcyblue
+Step 11: Click on button buy
+Step 12: Hover over link byPrice2
+Step 13: Click on link placeOrder -> Navigate to page '/cart'
+Step 14: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 15: Click on input email
+Step 16: Enter input value in input email
+Step 17: Click on button continueToShipping -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",Trivial,NEW
+41,Purchase iPhone and Accessories with Shipping Information,"Navigate to the home page, select an iPhone and accessories, input shipping details, proceed to payment, complete the order, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Click on link iPhone16ProMax -> Navigate to page '/product/*'
+Step 3: Click on label desertTitanium
+Step 4: Click on label storage512Gb
+Step 5: Click on button buy2 -> Navigate to page '/'
+Step 6: Click on link iPhone15ClearCase -> Navigate to page '/product/*'
+Step 7: Click on button buy -> Navigate to page '/cart'
+Step 8: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 9: Enter input value in input email
+Step 10: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
+Step 11: Enter input value in input firstName
+Step 12: Enter input value in input lastName
+Step 13: Enter input value in input shippingAddress
+Step 14: Enter input value in input zipCode
+Step 15: Enter input value in input city
+Step 16: Enter input value in input state
+Step 17: Enter input value in input phone
+Step 18: Click on button continueToPayment2 -> Navigate to page '/checkout/payment'
+Step 19: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 20: Take full page screenshot as checkpoint
+",Trivial,NEW
+14,Browse and Purchase Accessories with Price Filtering,"Navigate to the homepage, explore phone categories, filter by price, add accessories to the cart, and proceed to checkout.","Step 1: Navigate to /
+Step 2: Click on main homeOverview
+Step 3: Click on link phone4 -> Navigate to page '/category/*'
+Step 4: Click on main categoryOverview
+Step 5: Click on link kCellphoneShop -> Navigate to page '/'
+Step 6: Click on div welcomeMessage2
+Step 7: Click on div welcomeMessage2
+Step 8: Click on div welcomeMessage
+Step 9: Click on link about2 -> Navigate to page '/about'
+Step 10: Click on link kCellphoneShop
+Step 11: Click on link phone
+Step 12: Click on link accessories2 -> Navigate to page '/category/*'
+Step 13: Click on link phoneCategory
+Step 14: Click on input priceMin
+Step 15: Click on input priceMin
+Step 16: Click on input priceMin
+Step 17: Click on input priceMin
+Step 18: Click on input priceMin
+Step 19: Enter input value in input priceMin
+Step 20: Click on button show6
+Step 21: Click on button addToCart3
+Step 22: Click on div productAddedToCart
+Step 23: Click on link placeOrder2 -> Navigate to page '/cart'
+Step 24: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 25: Hover over link accessories
+Step 26: Click on input email
+Step 27: Enter input value in input email
+Step 28: Click on div continueToShipping
+Step 29: Click on input email -> Navigate to page ''
+Step 30: Take full page screenshot as checkpoint
+",Trivial,NEW
+38,Complete Checkout Process for iPhone Case in Cellphone Shop,"Navigate to the homepage, select an iPhone case, and proceed to checkout. Fill in shipping details and verify the completion of the process.","Step 1: Navigate to /
+Step 2: Click on span goToCart -> Navigate to page '/cart'
+Step 3: Click on link goShopping -> Navigate to page '/'
+Step 4: Click on link accessories3 -> Navigate to page '/category/*'
+Step 5: Click on link kCellphoneShop -> Navigate to page '/'
+Step 6: Click on link iphoneCase -> Navigate to page '/product/*'
+Step 7: Click on button buy
+Step 8: Access cart and enter email to continue to shipping.
+	- Step 1: Click on link placeOrder2 -> Navigate to page '/cart'
+	- Step 2: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on button continueToShipping
+Step 9: Click on input firstName
+Step 10: Enter input value in input firstName
+Step 11: Click on input lastName
+Step 12: Enter input value in input lastName
+Step 13: Click on input shippingAddress
+Step 14: Enter input value in input shippingAddress
+Step 15: Click on input zipCode
+Step 16: Enter input value in input zipCode
+Step 17: Click on input city
+Step 18: Enter input value in input city
+Step 19: Click on input state
+Step 20: Enter input value in input state
+Step 21: Click on input phone
+Step 22: Enter input value in input phone
+Step 23: Click on button continueToPayment -> Navigate to page ''
+Step 24: Take full page screenshot as checkpoint
+",Trivial,NEW
+10,Complete Purchase of Multiple Products in Cellphone Shop,"Navigate through categories, add multiple products to the cart, proceed to checkout, enter shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Hover over link accessories2
+Step 3: Click on link samsung2 -> Navigate to page '/category/*'
+Step 4: Click on link apple3
+Step 5: Click on link productCategories (accessories3)
+Step 6: Click on link byPrice
+Step 7: Click on link byPrice3
+Step 8: Click on button addToCartMultiple (addToCart6)
+Step 9: Click on label colorBlack
+Step 10: Click on button buy2
+Step 11: Click on link sale3 -> Navigate to page '/product/*'
+Step 12: Hover over link bestChoiceHotNewSale
+Step 13: Click on link nextProduct2
+Step 14: Click on link nextProduct2
+Step 15: Click on link nextProduct2
+Step 16: Click on link nextProduct2
+Step 17: Click on button addToCart
+Step 18: Click on label desertTitanium
+Step 19: Click on label storage512Gb
+Step 20: Click on button buy2
+Step 21: Click on link goToCart6 -> Navigate to page '/cart'
+Step 22: Click on link about2 -> Navigate to page '/about'
+Step 23: Click on link goToCart -> Navigate to page '/cart'
+Step 24: Click on div cartItemQuantity
+Step 25: Click on input quantity
+Step 26: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 27: Click on input email
+Step 28: Enter input value in input email
+Step 29: Click on label emailNewsOffers
+Step 30: Click on button continueToShipping
+Step 31: Re-enter shipping details and continue to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Click on input lastName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Click on input shippingAddress
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Click on input zipCode
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Click on input city
+	- Step 10: Enter input value in input city
+	- Step 11: Click on input state
+	- Step 12: Enter input value in input state
+	- Step 13: Click on input phone
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 32: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 33: Take full page screenshot as checkpoint
+",Trivial,NEW
+62,Purchase and Manage iPhone Accessories in Cart,"Navigate to the homepage, select an iPhone case, add it to the cart, manage cart items, and proceed to checkout.","Step 1: Navigate to /
+Step 2: Click on link iphone15SiliconeCase2 -> Navigate to page '/product/*'
+Step 3: Click on label blue2
+Step 4: Click on button buy2
+Step 5: Hover over button object3
+Step 6: Click on link placeOrder2 -> Navigate to page '/cart'
+Step 7: Click on button removeItem2
+Step 8: Click on button removeItem
+Step 9: Hover over span cart
+Step 10: Click on link apple -> Navigate to page '/category/*'
+Step 11: Click on link kCellphoneShop -> Navigate to page '/'
+Step 12: Click on link iphone15SiliconeCase2 -> Navigate to page '/product/*'
+Step 13: Click on label blue2
+Step 14: Click on button buy2
+Step 15: Click on link placeOrder2 -> Navigate to page '/cart'
+Step 16: Click on button increaseQuantity
+Step 17: Click on button proceedToCheckout -> Navigate to page '/checkout/payment'
+Step 18: Click on link backToCart -> Navigate to page '/cart'
+Step 19: Hover over link phone2
+Step 20: Click on link apple -> Navigate to page ''
+Step 21: Take full page screenshot as checkpoint
+",Trivial,NEW
+2,Purchase iPhone 15 Clear Case and Manage Cart Items,"Select iPhone 15 Clear Case, add to cart, remove items, proceed to checkout, enter shipping details, and complete the order.","Step 1: Navigate to /
+Step 2: Click on link iPhone15ClearCase -> Navigate to page '/product/*'
+Step 3: Click on button buy
+Step 4: Click on link placeOrder2 -> Navigate to page '/cart'
+Step 5: Click on button removeItem2
+Step 6: Click on button removeItem2
+Step 7: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 8: Click on input email
+Step 9: Enter input value in input email
+Step 10: Press key Tab on input email
+Step 11: Press key Tab on input receiveMarketingInfo
+Step 12: Press key Enter on button continueToShipping2 -> Navigate to page '/checkout/shipping-address'
+Step 13: Click on input firstName
+Step 14: Enter input value in input firstName
+Step 15: Press key Tab on input firstName
+Step 16: Enter input value in input lastName
+Step 17: Press key Tab on input lastName
+Step 18: Enter input value in input shippingAddress
+Step 19: Press key Tab on input shippingAddress
+Step 20: Press key Tab on input zipCode
+Step 21: Enter input value in input city
+Step 22: Press key Tab on input city
+Step 23: Click on button continueToPayment
+Step 24: Enter input value in input zipCode
+Step 25: Click on button continueToPayment -> Navigate to page '/'
+Step 26: Click on link kCellphoneShop
+Step 27: Hover over link accessories2
+Step 28: Click on link apple2 -> Navigate to page '/category/*'
+Step 29: Click on link usbCadapterPrice -> Navigate to page '/product/*'
+Step 30: Click on button buy
+Step 31: Click on link placeOrder2 -> Navigate to page '/cart'
+Step 32: Click on button proceedToCheckout -> Navigate to page '/checkout/payment'
+Step 33: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 34: Click on link kCellphoneShop -> Navigate to page ''
+Step 35: Take full page screenshot as checkpoint
+",Trivial,NEW
+34,Quick Purchase of iPhone 15 Clear Case with Email Preferences,"Select iPhone 15 Clear Case, add to cart, proceed to checkout, input email and preferences, and complete the order.","Step 1: Navigate to /
+Step 2: Click on link iPhone15ClearCase -> Navigate to page '/product/*'
+Step 3: Click on button buy
+Step 4: Click on link placeOrder2 -> Navigate to page '/cart'
+Step 5: Click on button proceedToCheckout -> Navigate to page '/checkout/payment'
+Step 6: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 7: Click on link phone -> Navigate to page '/category/*'
+Step 8: Click on link iPhone15ClearCase -> Navigate to page '/product/*'
+Step 9: Click on button buy
+Step 10: Click on link placeOrder2
+Step 11: Input email and choose marketing preferences before shipping.
+	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on input receiveMarketingInfo
+	- Step 5: Click on button continueToShipping
+Step 12: Click on input firstName -> Navigate to page ''
+Step 13: Take full page screenshot as checkpoint
+",Trivial,NEW
+50,Complete Purchase of iPhone 15 with Custom Options,"Navigate to the homepage, select an iPhone 15, customize storage and color, add to cart, and complete the checkout process with shipping details.","Step 1: Navigate to /
+Step 2: Hover over link phone
+Step 3: Click on link brandOptions (apple3) -> Navigate to page '/category/*'
+Step 4: Click on button addToCart4
+Step 5: Click on link iphone15 -> Navigate to page '/product/*'
+Step 6: Click on label storage1Tb
+Step 7: Click on label blue3
+Step 8: Click on button buy2
+Step 9: Press key Enter on button buy2
+Step 10: Click on link placeOrder2 -> Navigate to page '/cart'
+Step 11: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 12: Click on input email
+Step 13: Enter input value in input email
+Step 14: Click on button continueToShipping
+Step 15: Re-enter shipping details and continue to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Click on input lastName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Click on input shippingAddress
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Click on input zipCode
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Click on input city
+	- Step 10: Enter input value in input city
+	- Step 11: Click on input state
+	- Step 12: Enter input value in input state
+	- Step 13: Click on input phone
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 16: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 17: Take full page screenshot as checkpoint
+",Trivial,NEW
+59,Search and Add Phones to Cart with Price Filters,"Navigate to the homepage, filter phones by price, add a phone to the cart, increase quantity, and proceed to checkout.","Step 1: Navigate to /
+Step 2: Click on link phone3 -> Navigate to page '/category/*'
+Step 3: Enter input value in input priceMin
+Step 4: Enter input value in input priceMax
+Step 5: Click on button show5
+Step 6: Click on button clear
+Step 7: Click on link sortByPrice
+Step 8: Click on button addToCart4
+Step 9: Click on link goToCart -> Navigate to page '/cart'
+Step 10: Click on button increaseQuantity
+Step 11: Click on button proceedToCheckout -> Navigate to page '/category/*'
+Step 12: Click on link object
+Step 13: Click on link bestChoice -> Navigate to page '/product/*'
+Step 14: Click on label storage512Gb3
+Step 15: Enter input value in input quantity
+Step 16: Click on link productCategories (accessories2) -> Navigate to page '/category/*'
+Step 17: Enter input value in input priceMin
+Step 18: Click on link about -> Navigate to page '/'
+Step 19: Hover over span object
+Step 20: Click on link apple -> Navigate to page '/category/*'
+Step 21: Click on link kCellphoneShop2 -> Navigate to page ''
+Step 22: Take full page screenshot as checkpoint
+",Trivial,NEW
+21,Add Multiple Items to Cart and Complete Checkout Process,"Navigate to the homepage, add multiple items to the cart, fill in shipping details, and verify the homepage after checkout.","Step 1: Navigate to /
+Step 2: Click on span goToCart -> Navigate to page '/cart'
+Step 3: Click on link goShopping -> Navigate to page '/'
+Step 4: Click on button addToCartMultiple (object4)
+Step 5: Click on label storageColorOptions (pink)
+Step 6: Click on label storageColorOptions (colorBlue)
+Step 7: Click on button buy2
+Step 8: Hover over link samsungBestChoice
+Step 9: Click on button object5
+Step 10: Click on link about -> Navigate to page '/about'
+Step 11: Click on span goToCart -> Navigate to page '/cart'
+Step 12: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 13: Click on input email
+Step 14: Enter input value in input email
+Step 15: Click on button continueToShipping
+Step 16: Fill in shipping details and proceed to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Press key Tab on input firstName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Press key Tab on input lastName
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Press key Tab on input shippingAddress
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Press key Tab on input zipCode
+	- Step 10: Enter input value in input city
+	- Step 11: Press key Tab on input city
+	- Step 12: Enter input value in input state
+	- Step 13: Press key Tab on input state
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 17: Click on link checkout -> Navigate to page '/'
+Step 18: Click on span goToCart -> Navigate to page '/cart'
+Step 19: Click on button proceedToCheckout -> Navigate to page '/checkout/payment'
+Step 20: Click on link backToCart -> Navigate to page '/cart'
+Step 21: Click on link goToCart
+Step 22: Click on button proceedToCheckout -> Navigate to page '/checkout/payment'
+Step 23: Click on button contactInfo -> Navigate to page ''
+Step 24: Take full page screenshot as checkpoint
+",Trivial,NEW
+1,Purchase iPhone and Explore Accessories,"Navigate to the homepage, purchase an iPhone, fill in shipping details, and explore various accessories before returning to the homepage.","Step 1: Navigate to /
+Step 2: Hover over link phone
+Step 3: Click on link apple -> Navigate to page '/category/*'
+Step 4: Click on button addToCart3
+Step 5: Hover over link iPhone15HotNew
+Step 6: Click on link placeOrder -> Navigate to page '/cart'
+Step 7: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 8: Click on input email
+Step 9: Enter input value in input email
+Step 10: Click on button continueToShipping
+Step 11: Fill in shipping details and proceed to payment page.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Press key Tab on input firstName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Press key Tab on input lastName
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Press key Tab on input shippingAddress
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Press key Tab on input zipCode
+	- Step 10: Enter input value in input city
+	- Step 11: Press key Tab on input city
+	- Step 12: Enter input value in input state
+	- Step 13: Press key Tab on input state
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 12: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 13: Hover over link accessories
+Step 14: Hover over link apple
+Step 15: Hover over link apple2
+Step 16: Hover over link apple
+Step 17: Hover over link apple2
+Step 18: Hover over link apple
+Step 19: Hover over link apple2
+Step 20: Hover over link apple
+Step 21: Hover over link apple2
+Step 22: Click on link apple3 -> Navigate to page '/category/*'
+Step 23: Click on link kCellphoneShop -> Navigate to page '/'
+Step 24: Hover over link accessories2
+Step 25: Click on link samsung2 -> Navigate to page '/category/*'
+Step 26: Click on link saleItems (samsungUltraCases) -> Navigate to page '/product/*'
+Step 27: Click on button buy
+Step 28: Click on button action
+Step 29: Click on link home -> Navigate to page '/'
+Step 30: Click on link googlePhone -> Navigate to page '/product/*'
+Step 31: Click on button buy -> Navigate to page ''
+Step 32: Take full page screenshot as checkpoint
+",Trivial,NEW
+9,Complete Purchase for Galaxy S23 Ultra with Shipping Information,"Navigate to the homepage, select a Galaxy S23 Ultra, complete shipping and payment information, and verify the homepage after order completion.","Step 1: Navigate to /
+Step 2: Hover over button addToCart4
+Step 3: Click on link nextSlider
+Step 4: Click on link nextSlider
+Step 5: Click on link nextSlider
+Step 6: Click on link nextSlider
+Step 7: Click on link galaxyS23UltraNewHot -> Navigate to page '/product/*'
+Step 8: Click on label storage128Gb3
+Step 9: Click on label flavorCream
+Step 10: Click on button buy2
+Step 11: Click on link goToCart5
+Step 12: Input email and choose marketing preferences before shipping.
+	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on input receiveMarketingInfo
+	- Step 5: Click on button continueToShipping
+Step 13: Complete shipping information and proceed to payment.
+	- Step 1: Click on input firstName
+	- Step 2: Enter input value in input firstName
+	- Step 3: Press key Tab on input firstName
+	- Step 4: Enter input value in input lastName
+	- Step 5: Click on input shippingAddress
+	- Step 6: Enter input value in input shippingAddress
+	- Step 7: Click on input zipCode
+	- Step 8: Enter input value in input zipCode
+	- Step 9: Click on input city
+	- Step 10: Enter input value in input city
+	- Step 11: Click on input state
+	- Step 12: Enter input value in input state
+	- Step 13: Click on input phone
+	- Step 14: Enter input value in input phone
+	- Step 15: Click on button continueToPayment2
+Step 14: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 15: Click on link kCellphoneShop -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
+",Trivial,NEW
+51,Explore Samsung Galaxy S23 Ultra Product and Return to Home Page,"Navigate to the home page, explore the Samsung Galaxy S23 Ultra product, and verify the home page after multiple interactions.","Step 1: Navigate to /
+Step 2: Click on div hotProduct
+Step 3: Click on link samsungGalaxyS23UltraSmartviewCases -> Navigate to page '/product/*'
+Step 4: Click on button increased4
+Step 5: Click on button increased4
+Step 6: Click on button increased4
+Step 7: Click on button increased4
+Step 8: Click on button increased4
+Step 9: Click on button increased4
+Step 10: Click on span object
+Step 11: Click on link samsung -> Navigate to page '/category/*'
+Step 12: Click on link productCategories (accessories3) -> Navigate to page ''
+Step 13: Take full page screenshot as checkpoint
+",Trivial,NEW
+6,Test Filtering and Sale Items in Accessories Category,"Navigate to the homepage, filter accessories by price and stock, view sale items, and verify navigation back to the homepage.","Step 1: Navigate to /
+Step 2: Click on link accessories3 -> Navigate to page '/category/*'
+Step 3: Click on input priceMin
+Step 4: Enter input value in input priceMin
+Step 5: Click on input priceMax
+Step 6: Click on input priceMax
+Step 7: Enter input value in input priceMax
+Step 8: Click on button show3
+Step 9: Click on input inStock
+Step 10: Click on button show3
+Step 11: Click on link saleItems (sale) -> Navigate to page '/product/*'
+Step 12: Click on link home -> Navigate to page '/'
+Step 13: Click on link bestChoiceHotNewSale -> Navigate to page '/product/*'
+Step 14: Hover over link samsungGalaxyZfold5Sale
+Step 15: Click on link nextProduct2
+Step 16: Click on link nextProduct2
+Step 17: Click on link kCellphoneShop2 -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",Trivial,NEW
+7,Test Buying Process for Cellphone with Accessories,"Navigate to the homepage, select cellphone options, add to cart, and verify the cart. Explore accessories and return to the homepage.","Step 1: Navigate to /
+Step 2: Select multiple storage and color options for a cellphone.
+	- Step 1: Click on button addToCartMultiple
+	- Step 2: Click on label storageColorOptions
+	- Step 3: Click on label storageColorOptions
+	- Step 4: Click on label storageColorOptions
+	- Step 5: Click on label storageColorOptions
+Step 3: Click on button buy2
+Step 4: Click on span goToCart -> Navigate to page '/cart'
+Step 5: Click on link kCellphoneShop -> Navigate to page '/'
+Step 6: Hover over link accessories2
+Step 7: Click on link apple2 -> Navigate to page '/category/*'
+Step 8: Click on link usbChargeCable -> Navigate to page '/product/*'
+Step 9: Click on button buy
+Step 10: Click on span goToCart -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Trivial,NEW

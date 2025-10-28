@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button object",
+        "step 3: Hover over link bestChoice",
+        "step 4: Click on link placeOrder -> Navigate to page '/cart'",
+        "step 5: Click on button proceedToCheckout -> Navigate to page '/checkout/info'",
+        "step 6: Click on input email",
+        "step 7: Enter input value in input email",
+        "step 8: Click on button continueToShipping -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

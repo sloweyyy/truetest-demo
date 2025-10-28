@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>294bc412-8080-4e0a-91d2-c667f149500b</id>
+        </flow>
+    </customField>
+    <description>Navigate to the homepage, select a product, place an order, and proceed to checkout. Enter email and verify successful navigation back to the homepage.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC23-Place Order for Best Choice Product in Cellphone Shop</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>7e0380c4-62ed-4a63-88b2-afa50eece0d2</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Input data variable</description>
+        <id>482c2ca8-eabe-4432-8ae6-32f94ee3f47c</id>
+        <masked>false</masked>
+        <name>input_email</name>
+    </variable>
+</TestCaseEntity>
