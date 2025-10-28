@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>872ff4ee-d9d6-4acf-b1d7-885fcf890f1e</id>
+        </flow>
+    </customField>
+    <description>Navigate to the homepage, hover over accessories, select an Apple product, and verify that the homepage is displayed.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC1-Browse Accessories and Verify Homepage</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>cab8931a-a8ee-4f5d-a74d-5827f4adbfeb</testCaseGuid>
+</TestCaseEntity>

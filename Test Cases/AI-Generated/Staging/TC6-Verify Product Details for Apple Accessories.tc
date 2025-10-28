@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>f73a8fde-beb4-4f5f-9506-63c23fae4786</id>
+        </flow>
+    </customField>
+    <description>Navigate to the homepage, select Apple accessories, and verify the details of a specific iPhone case.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC6-Verify Product Details for Apple Accessories</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>90564036-2c9c-48d0-8835-8d9c52830530</testCaseGuid>
+</TestCaseEntity>

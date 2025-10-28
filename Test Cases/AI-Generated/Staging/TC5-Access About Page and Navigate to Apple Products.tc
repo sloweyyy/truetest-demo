@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>9231a4d4-34d1-4c1e-beec-ee9aff9cefd9</id>
+        </flow>
+    </customField>
+    <description>From the home page, access the About section, hover over an object, and navigate back to the home page after selecting Apple products.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC5-Access About Page and Navigate to Apple Products</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>93a20511-2252-48e7-befa-c8e9b075e2f9</testCaseGuid>
+</TestCaseEntity>
