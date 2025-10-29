@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>de21d045-fd4f-4395-8561-81bf3105a03c</id>
@@ -19,7 +18,7 @@
     </integratedEntity>
     <name>TC44-Add Accessories to Cart from Cellphone Shop</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>product</tag>
     <testCaseGuid>cec06d4d-7d6b-4252-a2b8-a1f6e97b0426</testCaseGuid>
     <variable>
         <defaultValue>'iPhone 15 Silicone Case with Magsafe\\\\$ 39\\\\.00'</defaultValue>

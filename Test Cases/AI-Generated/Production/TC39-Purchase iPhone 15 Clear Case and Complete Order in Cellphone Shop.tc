@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <TestCaseEntity>
-    <comment></comment>
+    <comment />
     <customField>
         <flow>
             <id>4b3ee807-9d9d-4be6-bf47-f933d25c59f3</id>
@@ -19,6 +18,6 @@
     </integratedEntity>
     <name>TC39-Purchase iPhone 15 Clear Case and Complete Order in Cellphone Shop</name>
     <origin>TRUETEST</origin>
-    <tag></tag>
+    <tag>product</tag>
     <testCaseGuid>6e5ab9f9-0426-42fc-ad8b-d8dc477fd8f1</testCaseGuid>
 </TestCaseEntity>
