@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>4b3ee807-9d9d-4be6-bf47-f933d25c59f3</id>
+        </flow>
+    </customField>
+    <description>Navigate to the homepage, select the iPhone 15 Clear Case, place an order, and complete the checkout process. Verify the thank you page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC39-Purchase iPhone 15 Clear Case and Complete Order in Cellphone Shop</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>6e5ab9f9-0426-42fc-ad8b-d8dc477fd8f1</testCaseGuid>
+</TestCaseEntity>

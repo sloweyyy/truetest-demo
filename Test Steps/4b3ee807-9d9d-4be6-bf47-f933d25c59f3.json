@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on link iPhone15ClearCase -> Navigate to page '/product/*'",
+        "step 3: Click on button buy",
+        "step 4: Hover over button increase",
+        "step 5: Click on link placeOrder -> Navigate to page '/cart'",
+        "step 6: Click on button proceedToCheckout -> Navigate to page '/checkout/payment'",
+        "step 7: Click on button completeOrder -> Navigate to page '/thank-you/*'",
+        "step 8: Take full page screenshot as checkpoint"
+    ]
+}
